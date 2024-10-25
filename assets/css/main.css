@@ -1,0 +1,318 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Hanken Grotesk", serif;
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+.header h1 {
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+  color: #cac9ff;
+}
+.counter {
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  border-radius: 100%;
+  margin-bottom: 24px;
+}
+.counter span {
+  padding: 25px 39px 22px 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.counter span h2 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 72px;
+  color: #fff;
+}
+.counter span p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.85px;
+  color: #cac9ff;
+}
+.counter-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.counter-text h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.27px;
+  color: #fff;
+}
+.counter-text p {
+  margin-bottom: 40px;
+  padding-inline: 57px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.85px;
+  color: #cac9ff;
+}
+.summary {
+  padding: 0 30px;
+}
+.summary h2 {
+  padding-block: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+  color: #303b59;
+}
+.summary-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.summary-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.summary-text {
+  display: flex;
+  align-items: center;
+}
+.summary-number {
+  display: flex;
+  align-items: center;
+}
+.summary-item {
+  background: #fff6f6;
+
+  border-radius: 12px;
+}
+.summary-text {
+  padding: 17px 0 18px 16px;
+}
+.summary-text i {
+  margin-right: 12px;
+  color: #ff5555;
+}
+.summary-text h3 {
+  color: #ff5555;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.85px;
+}
+.summary-number {
+  padding-right: 16px;
+}
+.summary-number p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.85px;
+  color: #303b59;
+}
+.summary-number p:first-child {
+  margin-right: 8px;
+}
+.summary-number p:last-child {
+  opacity: 50%;
+}
+.memory .summary-text h3 {
+  color: #ffb21e;
+}
+.memory .summary-text i {
+  color: #ffb21e;
+}
+.memory {
+  background-color: #fffbf4;
+}
+.verbal {
+  background-color: #f2fcf9;
+}
+.visual {
+  background-color: #f3f4fd;
+  margin-bottom: 40px;
+}
+.verbal .summary-text h3 {
+  color: #00bb8f;
+}
+.verbal .summary-text i {
+  color: #00bb8f;
+}
+.visual .summary-text h3 {
+  color: #1125d6;
+}
+.visual .summary-text i {
+  color: #1125d6;
+}
+.btn {
+  margin-bottom: 30px;
+  padding: 17px 120px;
+  background-color: #303b59;
+  border-radius: 128px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+}
+
+@media screen and (min-width: 736px) {
+  body {
+    background-color: #ecf2ff;
+  }
+  .container {
+    max-width: 736px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 32px;
+  }
+
+  .result {
+    display: flex;
+    justify-content: center;
+    margin-top: 284px;
+  }
+  .header {
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+  }
+}
